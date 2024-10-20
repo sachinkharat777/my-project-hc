@@ -1,8 +1,14 @@
-this is my project list.
+this is an my basic project list.(html&css)
 1. [YouTube project](https://sachinkharat777.github.io/my-project-hc/YouTube%20clone/index.html)
 2. [Netflix project](https://sachinkharat777.github.io/my-project-hc/Project%204%20(Netflix_login_page)/index.html)
 3. [profile_card project](https://sachinkharat777.github.io/my-project-hc/project%201(profile_card)/card.html)
 4. [flipping card porject](https://sachinkharat777.github.io/my-project-hc/project%202%20(fliping-card)/index.html)
 5. [Credit card project](https://sachinkharat777.github.io/my-project-hc/project%203%20(credit_card)/index.html)
 6. [sliding img site](https://sachinkharat777.github.io/my-project-hc/sliding%20img%20site%20(demo)/index.html)
-7. 
+7. [job application web](https://sachinkharat777.github.io/my-project-hc/project_0%20to%201%20Html&Css/project-02(application%20form)/index.html)
+8. [parallex website](https://sachinkharat777.github.io/my-project-hc/project_0%20to%201%20Html&Css/project-03(parallex%20website)/index.html)
+9. [Landing page](https://sachinkharat777.github.io/my-project-hc/project_0%20to%201%20Html&Css/project-04(landing%20page)/index.html)
+10. [basic restorent website](https://sachinkharat777.github.io/my-project-hc/project_0%20to%201%20Html&Css/project-05%20(restorent)/index.html)
+11. [music website](https://sachinkharat777.github.io/my-project-hc/project_0%20to%201%20Html&Css/project-06(music%20site)/index.html)
+12. [portfolio](https://sachinkharat777.github.io/my-project-hc/project_0%20to%201%20Html&Css/project-08%20(portfolio)/index.html)
+13. [Tribute website](https://sachinkharat777.github.io/my-project-hc/project_0%20to%201%20Html&Css/A.P.J%20abdul%20kalam/index.html)
