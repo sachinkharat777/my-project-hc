@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+:root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red600: #dc0000;
+  --body: #f9f6ff;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%; /* -->  1 rem = 10px */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  font-size: 1.6rem;
+
+}
+
+section {
+  scroll-margin: 60px;
+}
+header,
+nav {
+  max-height: 60px;
+  background-color: var(--purple300);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-contenar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+.nav-logo i {
+  font-size: 20px;
+  color: black;
+}
+
+.nav-link a {
+  color: white;
+  font-weight: 400;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.hero-contenar {
+  background-image: url(hero_image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.hero-contenar .here-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 15px;
+}
+.hero-text {
+  color: white;
+}
+.hero-text h1 {
+  font-size: 6rem;
+}
+.hero-text h3 {
+  font-size: 3rem;
+}
+.hero-text p {
+  font-size: 1.6rem;
+}
+
+/* music section 2 */
+
+.music-section_contenar {
+  background-color: var(--purple500);
+}
+
+.music-section .contenar {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  color: white;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin: 0 auto;
+}
+.contenar .ipad-img {
+  position: relative;
+  top: 400px;
+  margin-top: -400px;
+}
+
+.conternar h2 {
+  font-size: 15px;
+}
+.contenar .long-text {
+  font-weight: 400;
+}
+.contenar .frist-btn {
+  font-size: 16px;
+  padding: 16px;
+  color: white;
+  background-color: var(--red600);
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.second-btn {
+  background-color: var(--purple300);
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+}
+
+.about-music {
+  margin-top: 500px;
+  color: black;
+}
+.about-music .about-content {
+  padding: 0 20px;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.about-content h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.about-content p {
+  font-weight: 500;
+}
+
+/* chat gpt code line_no :156-182 */
+.video-container {
+  position: relative;
+  width: 100%;
+}
+.video-container video {
+  width: 100%;
+}
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin-top: -100px;
+}
+
+.text-overlay h2 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 2.4rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-overlay p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.hero-img,
+.video-container {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gift-card-section {
+  margin: 50px;
+}
+
+.gift-card-contenar {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.gift-card-text {
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 1.8;
+}
+
+.gift-card-text button {
+  max-width: fit-content;
+  padding: 5px 30px;
+  color: white;
+  background-color: var(--purple500);
+  border: none;
+}
+
+.footer-contenar {
+  background-color: var(--purple600);
+  display: flex;
+  color: var(--body);
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+}
+.footer-contenar h3 {
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-contenar ul li {
+  list-style-type: none;
+}
+
+.copy {
+  background-color: var(--purple300);
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+.menu i {
+  color: white;
+  padding-right: 10px;
+  font-size: 25px;
+  text-justify: center;
+}
+
+@media (max-width: 1040px) {
+  .ipad-img img,
+  .mac_book-img img {
+    max-width: 100%;
+  }
+  .contenar .ipad-img {
+    top: 200px;
+    margin-top: -200px;
+  }
+  .about-music {
+    margin-top: 300px;
+  }
+  .text-overlay {
+    font-size: ;
+  }
+  .gift-card-img img {
+    max-width: 40rem;
+  }
+  .gift-card-contenar {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .gift-card-img img {
+    max-width: 100%;
+  }
+  html {
+    font-size: 40%;
+  }
+  nav .nav-link {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+  .foter-card .Eb {
+    font-size: 15px;
+  }
+  .footer-contenar {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .contenar .ipad-img {
+    top: 200px;
+    margin-top: -200px;
+  }
+  .about-music {
+    margin-top: 200px;
+  }
+  .text-overlay {
+    top: 70%;
+    left: 50%;
+    margin-top: -10rem;
+  }
+  .text-overlay p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .contenar .ipad-img {
+    top: 100px;
+    margin-top: -100px;
+  }
+  .about-music {
+    margin-top: 100px;
+  }
+  .text-overlay {
+    top: 80%;
+    left: 50%;
+    margin-top: -10rem;
+  }
+  .text-overlay h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .text-overlay p {
+    font-size: 0.9rem;
+  }
+}

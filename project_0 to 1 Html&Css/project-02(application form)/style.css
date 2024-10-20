@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(133, 133, 133);
+  background-image: url(https://images.pexels.com/photos/5668833/pexels-photo-5668833.jpeg?auto=compress&cs=tinysrgb&w=600);
+
+}
+
+.contenar{
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+.apply-box{
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 4px 3px 5px rgba(16, 7, 7, 0.1) ;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  background-image: url(dark\ img);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.apply-box #title-size{
+  font-size: 15px;
+}
+
+.form_contenar{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+.textarea_control {
+  grid-column: 1/span 2;
+}
+.textarea_control textarea{
+  width: 100%;
+}
+
+.form_control{
+  display: flex;
+  flex-direction: column;
+}
+.form_control label{
+  font-size:15px;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+}
+.form_control textarea {
+  color: white;
+}
+
+.form_control #uplode{
+  color: white;
+}
+
+input, select,textarea{
+  padding: 7px 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+input,textarea, select:focus{
+  outline-color:green;
+}
+
+.buttne_contenar{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 22px;
+
+}
+button{
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 7px;
+  transition: 0.3s ease-in;
+}
+
+button:hover {
+  box-shadow: -10px  10px 20px rgb(125, 146, 215);
+  background-color: blue;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+
+}
+
+input:hover{
+  box-shadow: -10px 5px 20px rgb(217, 141, 141);
+  transition: 0.2s  ease-in-out;
+
+}
+textarea:hover{
+  box-shadow: -10px 5px 20px rgb(210, 148, 149);
+  transition: 0.2s  ease-in-out;
+
+}
+select:hover{
+  box-shadow: -10px 5px 20px rgb(229, 155, 161);
+  transition: 0.2s  ease-in-out;
+
+}
+@media screen and (max-width: 460px){
+  .textarea_control {
+    grid-column: 1/span 1;
+  }
+
+} 

@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+  box-shadow: 1px 1px 5px black;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  margin-bottom: 32px;
+  padding: 10px;
+  /* width: 500px; */
+}
+
+.contenar {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-bar {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-barlogo {
+  font-size: 32px;
+}
+
+.nav-links a {
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+/* Hero section */
+
+.hero-contenar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.hero-content {
+  padding-left: 15px;
+}
+
+.hero-content h4 {
+  font-size: 13px;
+  font-weight: 500;
+  width: fit-content;
+  padding: 4px;
+  color: white;
+  background-color: green;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+}
+
+.hero-content p {
+  font-size: 14px;
+}
+
+/* .hero-textcontent {
+  margin-left: 60px;
+  width: 600px;
+} */
+
+.hero-button button {
+  font-size: 20px;
+  padding: 5px;
+  background-color: rgb(160, 148, 46);
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* Hero-botom section */
+
+.botom_contenar {
+  display: flex;
+  border-bottom: 1px solid black;
+  margin-top: 60px;
+  padding: 0 30px;
+}
+
+.botom-card {
+  display: flex;
+}
+
+.botom-text {
+  margin-left: 20px;
+}
+
+.botom-text p {
+  font-size: 15px;
+}
+
+.botom-card .botom-image img {
+  /* height: 70px; */
+  width: 40px;
+}
+
+/* main content  */
+.menu-boton {
+  margin: 20px 0;
+  gap: 100px;
+}
+
+.menu-boton h4 {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  padding: 8px;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.menu-text {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* grid images section */
+
+.manu {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 50px 0;
+}
+
+.grid-images {
+  display: grid;
+  gap: 10px;
+  grid-template-areas:
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+
+.grid-images img {
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+  width: 100%;
+  height: 100;
+}
+
+.grid-images img:hover {
+  transform: scale(1.07);
+  transition: 0.2s ease-in-out;
+}
+
+.item_1 {
+  grid-area: I1;
+}
+
+.item_2 {
+  grid-area: I2;
+}
+
+.item_3 {
+  grid-area: I3;
+}
+
+.item_4 {
+  grid-area: I4;
+}
+
+.item_5 {
+  grid-area: I5;
+}
+
+.item_6 {
+  grid-area: I6;
+}
+
+.item_7 {
+  grid-area: I7;
+}
+
+/* foooter section */
+
+.footer {
+  background-color: lightpink;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-card p {
+  font-size: 13px;
+  margin: 5px 0;
+}
+
+.footer-card .social_media {
+  margin: 8px 5px;
+}
+
+.footer-card .social_media i {
+  margin: 10px 7px;
+}
+
+@media (max-width: 700px) {
+  .hero-contenar {
+    flex-direction: column;
+  }
+
+  .hero-image img {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    padding: 10px;
+  }
+
+  /* .hero-image img {
+    width: 90%;
+  } */
+  .hero-textcontent {
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .hero-textcontent .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-textcontent,
+  .hero-content h4 {
+    font-size: 12px;
+  }
+
+  .botom_contenar {
+    flex-direction: column;
+  }
+
+  .botom-card {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .grid-images {
+    padding: 10px;
+  }
+
+  .grid-images img {
+    border-radius: 0;
+  }
+
+  .menu-boton h2 {
+    font-size: 20px;
+  }
+
+  .menu-boton h4 {
+    font-size: 15px;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer img {
+    width: 150px;
+  }
+  .footer .footer-card .email {
+    width: 100%;
+  }
+}
+@media (max-width: 586px) {
+  .nav-links {
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .nav-logo img {
+    width: 70%;
+  }
+}

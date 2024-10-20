@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* html{
+    font-size: 65.5%;
+} */
+
+body {
+  background-image: url(bg-netflix.jpeg);
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.logo img {
+  width: 88px;
+  margin: 24px 32px;
+}
+.containar {
+  margin-top: 76px;
+  max-width: 480px;
+  height: 740px;
+  /* background-color: black; */
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+}
+.form-containar {
+  /* background-color: white; */
+  width: 314px;
+  border-radius: 5px;
+  padding: 15px 10px;
+}
+.email-pass input,
+button {
+  max-width: 314px;
+  height: 56px;
+  margin: 10px;
+  border: 1px solid white;
+  /* border-radius: 4px; */
+}
+.email-pass input {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 9px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.email-pass button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(255, 43, 43);
+  border-radius: 3px;
+}
+
+.email-pass {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup h4 {
+  font-weight: 400;
+  text-align: center;
+}
+.signup .or-section button {
+  height: 45px;
+  width: 274px;
+  font-weight: 400;
+  font-size: 17px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.or-section .Forgot {
+  text-decoration: none;
+  color: white;
+  /* text-align: center; */
+  
+}
